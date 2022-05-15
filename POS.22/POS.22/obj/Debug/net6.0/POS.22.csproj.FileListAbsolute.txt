@@ -1,0 +1,78 @@
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.csproj.AssemblyReference.cache
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.AssemblyInfoInputs.cache
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.AssemblyInfo.cs
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.csproj.CoreCompileInputs.cache
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.exe
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.deps.json
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.runtimeconfig.json
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.dll
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.pdb
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/Colorful.Console.dll
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/Consult.dll
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.csproj.CopyComplete
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.dll
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/refint/POS.22.dll
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.pdb
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.genruntimeconfig.cache
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/ref/POS.22.dll
+C:/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/Memory.dll
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.deps.json
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.runtimeconfig.json
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.dll
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/ref/POS.22.dll
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.pdb
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/Colorful.Console.dll
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/Memory.dll
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/bin/Debug/net6.0/Consult.dll
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.csproj.AssemblyReference.cache
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.GeneratedMSBuildEditorConfig.editorconfig
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.AssemblyInfoInputs.cache
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.AssemblyInfo.cs
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.csproj.CoreCompileInputs.cache
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.csproj.CopyComplete
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.dll
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/ref/POS.22.dll
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.pdb
+/storage/NVME2/Users/Bloat Gates/Desktop/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.genruntimeconfig.cache
+C:/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.exe
+C:/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.deps.json
+C:/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.runtimeconfig.json
+C:/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.dll
+C:/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.pdb
+C:/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/Colorful.Console.dll
+C:/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/Memory.dll
+C:/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/Consult.dll
+C:/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.csproj.AssemblyReference.cache
+C:/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.GeneratedMSBuildEditorConfig.editorconfig
+C:/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.AssemblyInfoInputs.cache
+C:/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.AssemblyInfo.cs
+C:/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.csproj.CoreCompileInputs.cache
+C:/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.csproj.CopyComplete
+C:/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.dll
+C:/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/refint/POS.22.dll
+C:/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.pdb
+C:/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.genruntimeconfig.cache
+C:/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/ref/POS.22.dll
+C:/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/Newtonsoft.Json.dll
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.deps.json
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.runtimeconfig.json
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.dll
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/ref/POS.22.dll
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/POS.22.pdb
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/Colorful.Console.dll
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/Memory.dll
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/Newtonsoft.Json.dll
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/bin/Debug/net6.0/Consult.dll
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.csproj.AssemblyReference.cache
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.GeneratedMSBuildEditorConfig.editorconfig
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.AssemblyInfoInputs.cache
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.AssemblyInfo.cs
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.csproj.CoreCompileInputs.cache
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.csproj.CopyComplete
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.dll
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/ref/POS.22.dll
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.pdb
+/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/obj/Debug/net6.0/POS.22.genruntimeconfig.cache
