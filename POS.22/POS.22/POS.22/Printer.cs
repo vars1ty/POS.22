@@ -7,7 +7,7 @@ namespace POS._22;
 /// <summary>
 /// Basic Console writing utils.
 /// </summary>
-// * Made by narcotics.
+// * Made by devin.
 internal readonly struct Printer
 {
     /// <summary>

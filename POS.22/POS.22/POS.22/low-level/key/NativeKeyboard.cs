@@ -5,7 +5,7 @@ namespace POS._22.low_level.key;
 /// <summary>
 /// Keyboard utility.
 /// </summary>
-// * Made by narcotics.
+// * Made by devin.
 internal static class NativeKeyboard
 {
     #region WinAPI

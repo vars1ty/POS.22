@@ -7,7 +7,7 @@ namespace POS._22.low_level;
 /// <summary>
 /// Basic Star Stable Online patcher.
 /// </summary>
-// * Made by narcotics.
+// * Made by devin.
 internal static class RYPatcher
 {
     #region Variables
@@ -73,6 +73,8 @@ internal static class RYPatcher
 
     private static async Task HookEvent()
     {
+        // ! No this does not work properly lol, it was just a test which I forgot to remove.
+        // ! But if you want to look into it, go ahead.
         var scan = (await mem.AoBScan(AoBStrings.firstQuestOnActive, true)).ToList();
         var club = (await mem.AoBScan(AoBStrings.openClubWindow, true)).ToList();
         var club2 = (await mem.AoBScan(AoBStrings.openClubWind, true)).ToList();

@@ -3,7 +3,7 @@ namespace POS._22.low_level.scripting;
 /// <summary>
 /// Short-hand wrapper around PXScript, aimed to make functions and such easier to understand.
 /// </summary>
-// * Made by narcotics.
+// * Made by devin.
 internal static class RYPX
 {
     #region Variables

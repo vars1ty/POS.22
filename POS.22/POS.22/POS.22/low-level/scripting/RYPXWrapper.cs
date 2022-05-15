@@ -3,7 +3,7 @@ namespace POS._22.low_level.scripting;
 /// <summary>
 /// Util to make working with in-game scripting easier.
 /// </summary>
-// * Made by narcotics.
+// * Made by devin.
 internal struct RYPXWrapper
 {
     #region Variables

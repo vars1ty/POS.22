@@ -9,7 +9,7 @@ namespace POS._22;
 /// <summary>
 /// Main logic.
 /// </summary>
-// * Made by narcotics.
+// * Made by devin.
 internal static class Head
 {
     #region Variables

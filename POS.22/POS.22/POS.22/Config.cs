@@ -5,7 +5,7 @@ namespace POS._22;
 /// <summary>
 /// Basic access to config.jsom
 /// </summary>
-// * Made by narcotics.
+// * Made by devin.
 internal static class Config
 {
     #region Variables

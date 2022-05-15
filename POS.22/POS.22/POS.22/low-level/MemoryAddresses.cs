@@ -5,6 +5,7 @@ namespace POS._22.low_level;
 /// </summary>
 internal readonly struct MemoryAddresses
 {
+    // ! Warning: These offsets and addresses are only for 1 specific version, you can get your own by manually moving the CutsceneCamera position to something like 9592185 and scanning for it via Cheat Engine etc.
     /// <summary>
     /// Camera position pointer.
     /// </summary>

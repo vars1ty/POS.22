@@ -4,7 +4,7 @@ namespace POS._22.low_level.key;
 /// Small list of pre-defined virtual keycodes.
 /// <para>A list of all VKeys in an Enum can be found here: https://gist.github.com/alekseynemiro/dbb869443239b435b48ea767456e343a</para>
 /// </summary>
-// * Made by narcotics.
+// * Made by devin.
 internal enum NativeInput
 {
     KEY_W = 0x57,

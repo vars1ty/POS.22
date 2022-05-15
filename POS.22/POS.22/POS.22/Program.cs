@@ -3,9 +3,9 @@ using POS._22.low_level.key.game;
 using POS._22.low_level.scripting;
 using Console = Colorful.Console;
 
-// * Made by narcotics.
+// * Made by devin.
 // ! Call Head.Run()
-Console.Title = "Project Old SSO | 2022 | Made by narcotics#0911";
+Console.Title = "Project Old SSO | 2022 | Made by devin#8415";
 Config.FetchConfig();
 RYPX.BuildCodeSet();
 Printer.WriteTutorial();

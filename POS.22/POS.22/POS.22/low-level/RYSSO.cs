@@ -3,7 +3,7 @@ namespace POS._22.low_level;
 /// <summary>
 /// Basic Star Stable Online memory writing utility.
 /// </summary>
-// * Made by narcotics.
+// * Made by devin.
 internal static class RYSSO
 {
     #region Variables

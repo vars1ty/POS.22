@@ -7,7 +7,7 @@ namespace POS._22.low_level.key.game;
 /// <summary>
 /// Basic "freecam" / flight.
 /// </summary>
-// * Made by narcotics.
+// * Made by devin.
 internal static class RYFreeCam
 {
     #region Variables
@@ -118,7 +118,7 @@ internal static class RYFreeCam
     /// </summary>
     private static void UpdatePosition()
     {
-        var lerp = Lerp(currentPosition, newPosition);
+        // var lerp = Lerp(currentPosition, newPosition);
         mem.WriteMemory(MemoryAddresses.camPosX, type, Convert.ToString(newPosition.X, CultureInfo.InvariantCulture));
         mem.WriteMemory(MemoryAddresses.camPosY, type, Convert.ToString(yPos, CultureInfo.InvariantCulture));
         mem.WriteMemory(MemoryAddresses.camPosZ, type, Convert.ToString(newPosition.Y, CultureInfo.InvariantCulture));
