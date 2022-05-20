@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/POS.22.csproj": {}
+    "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\POS.22.csproj": {}
   },
   "projects": {
-    "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/POS.22.csproj": {
+    "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\POS.22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/POS.22.csproj",
+        "projectUniqueName": "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\POS.22.csproj",
         "projectName": "POS.22",
-        "projectPath": "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/POS.22.csproj",
-        "packagesPath": "/home/narcotics/.nuget/packages/",
-        "outputPath": "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/obj/",
+        "projectPath": "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\POS.22.csproj",
+        "packagesPath": "C:\\Users\\0\\.nuget\\packages\\",
+        "outputPath": "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/narcotics/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -49,6 +49,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "ZString": {
+              "target": "Package",
+              "version": "[2.4.4, )"
             }
           },
           "imports": [
@@ -61,18 +65,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.2, 6.0.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

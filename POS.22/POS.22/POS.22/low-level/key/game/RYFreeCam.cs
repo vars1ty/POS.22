@@ -105,6 +105,8 @@ internal static class RYFreeCam
             case NativeInput.KEY_D:
                 newPosition.X += baseSpeed;
                 break;
+            case NativeInput.KEY_LEFT_ARROW:
+            case NativeInput.KEY_RIGHT_ARROW:
             default:
                 throw new ArgumentOutOfRangeException(nameof(vKey), vKey,
                     "Invalid key (not pre-defined in NativeInput)!");
@@ -118,30 +120,10 @@ internal static class RYFreeCam
     /// </summary>
     private static void UpdatePosition()
     {
-        // var lerp = Lerp(currentPosition, newPosition);
         mem.WriteMemory(MemoryAddresses.camPosX, type, Convert.ToString(newPosition.X, CultureInfo.InvariantCulture));
         mem.WriteMemory(MemoryAddresses.camPosY, type, Convert.ToString(yPos, CultureInfo.InvariantCulture));
         mem.WriteMemory(MemoryAddresses.camPosZ, type, Convert.ToString(newPosition.Y, CultureInfo.InvariantCulture));
         // ! Prevent baseSpeed from going into the negatives or being 0
         if (baseSpeed <= 0) baseSpeed = .001f;
     }
-
-    /// <summary>
-    /// Lerp over a <see cref="Vector2"/>.
-    /// </summary>
-    /// <param name="in"></param>
-    /// <param name="out"></param>
-    /// <returns></returns>
-    private static Vector2 Lerp(Vector2 @in, Vector2 @out) =>
-        new(Lerp(@in.X, @out.X, .05f), Lerp(@out.Y, @out.Y, .05f));
-
-    /// <summary>
-    /// Lerp over a single <see cref="float"/> value.
-    /// </summary>
-    /// <param name="firstFloat"></param>
-    /// <param name="secondFloat"></param>
-    /// <param name="by"></param>
-    /// <returns></returns>
-    private static float Lerp(float firstFloat, float secondFloat, float by) =>
-        firstFloat * (1 - by) + secondFloat * by;
 }

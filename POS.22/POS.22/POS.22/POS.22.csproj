@@ -26,6 +26,7 @@
       <PackageReference Include="Colorful.Console" Version="1.2.15" />
       <PackageReference Include="Memory.dll.x64" Version="1.2.23" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="ZString" Version="2.4.4" />
     </ItemGroup>
 
 </Project>

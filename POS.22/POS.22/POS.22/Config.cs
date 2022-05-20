@@ -13,8 +13,8 @@ internal static class Config
     public static string pxEngineRuntime = null!;
     public static string pxPlayerName = null!;
     public static string pxHorseName = null!;
+    public static bool printerActive = true;
     public static bool runMaxProcCheck;
-    public static bool printerActive;
     #endregion
 
     /// <summary>

@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using Cysharp.Text;
 using POS._22.low_level.scripting;
 using static POS._22.Head;
 
@@ -18,9 +19,6 @@ internal static class RYPatcher
             "67 6C 6F 62 61 6C 2F 4D 61 70 57 69 6E 64 6F 77 2E 53 74 61 72 74 28 29 3B",
         login_message =
             "67 6C 6F 62 61 6C 2F 4C 6F 67 69 6E 4D 65 6E 75 2E 53 74 61 72 74 28 29 3B";
-
-    private const string introduction1ActionStop =
-        "67 6C 6F 62 61 6C 2F 49 6E 74 72 6F 43 61 6D 31 2E 53 74 6F 70 28 29 3B";
     #endregion
 
     /// <summary>
@@ -35,7 +33,8 @@ internal static class RYPatcher
             Printer.WriteError("RYPatcher: Found no values to patch, can't continue");
             Printer.WriteError("RYPatcher: Closing all PXEngine Runtime instances, please try again");
             var proc = Process.GetProcessesByName("PXStudioRuntimeMMO");
-            for (var i = 0; i < proc.Length; i++)
+            var length = proc.Length;
+            for (var i = 0; i < length; i++)
             {
                 proc[i].Kill();
                 Printer.WriteLine($"{proc[i].ProcessName} killed");
@@ -44,15 +43,17 @@ internal static class RYPatcher
             return;
         }
 
-        var address = $"0x{errorScan[0]:X}";
+        var address = ZString.Concat("0x", errorScan[0].ToString("X"));
         WriteString(address, "global/IntroCam1.Stop();");
         Printer.WriteLine("RYPatcher: Skip authentication (LoginMenu)");
         Printer.WriteLine("RYPatcher: Value found, patching...");
         await PatchMessage();
-        //WriteString(address, BuildPatch().GetCode());
         Printer.WriteLine("RYPatcher: Patched!");
     }
 
+    /// <summary>
+    /// Adds a small patch message.
+    /// </summary>
     private static async Task PatchMessage()
     {
         var messageScan = (await mem.AoBScan(login_message, true)).ToList();
@@ -67,29 +68,13 @@ internal static class RYPatcher
         patch.WriteLine("~/FadeDownLongWithText.Start();");
         patch.WriteLine($"~/PlayerName.SetDataString(\"{Config.pxPlayerName}\");");
         patch.WriteLine($"~/HorseName.SetDataString(\"{Config.pxHorseName}\");");
-        await HookEvent();
-        WriteString($"0x{messageScan[0]:X}", patch.GetCode() + BuildWorld());
+        WriteString(ZString.Concat("0x", messageScan[0].ToString("X")), ZString.Concat(patch.GetCode(), BuildWorld()));
     }
 
-    private static async Task HookEvent()
-    {
-        // ! No this does not work properly lol, it was just a test which I forgot to remove.
-        // ! But if you want to look into it, go ahead.
-        var scan = (await mem.AoBScan(AoBStrings.firstQuestOnActive, true)).ToList();
-        var club = (await mem.AoBScan(AoBStrings.openClubWindow, true)).ToList();
-        var club2 = (await mem.AoBScan(AoBStrings.openClubWind, true)).ToList();
-        // REF: global/StableTunnelGate
-        for (var i = 0; i < scan.Count; i++)
-            consult.Memory.write_string($"0x{scan[i]:X}",
-                "global/QuestManager/Episode1/Chain1/E01_Quest_L01_C001_001.SetQuestState(3);global/QuestManager/Episode1/Chain1/E01_Quest_L01_C001_001.SetQuestState(1);");
-        for (var i = 0; i < club.Count; i++)
-            consult.Memory.write_string($"0x{club[i]:X}",
-                "global/QuestManager/Episode1/Chain1/E01_Quest_L01_C001_001.SetQuestState(3);global/QuestManager/Episode1/Chain1/E01_Quest_L01_C001_001.SetQuestState(1);");
-        for (var i = 0; i < club2.Count; i++)
-            consult.Memory.write_string($"0x{club2[i]:X}",
-                "global/ReportWindow.Start();global/QuestManager/Episode1/Chain1/E01_Quest_L01_C001_001.SetQuestState(1);global/QuestManager/Episode1/Chain1/E01_Quest_L01_C001_001.SetQuestState(3);");
-    }
-
+    /// <summary>
+    /// Starts various systems.
+    /// </summary>
+    /// <returns></returns>
     private static string BuildWorld()
     {
         var builder = new RYPXWrapper();
@@ -120,7 +105,7 @@ internal static class RYPatcher
     /// </summary>
     /// <param name="address"></param>
     /// <param name="content"></param>
-    public static void WriteString(string address, string content) =>
+    private static void WriteString(string address, string content) =>
         // ! "return;" was used in SSOUtils as well in order to prevent code behind it from running, decreasing the risk of crashing.
-        consult.Memory.write_string(address, $"{content});\nreturn;");
+        consult.Memory.write_string(address, ZString.Concat(content, ");\nreturn;"));
 }

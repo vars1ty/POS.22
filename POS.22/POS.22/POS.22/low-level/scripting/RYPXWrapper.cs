@@ -1,3 +1,5 @@
+using Cysharp.Text;
+
 namespace POS._22.low_level.scripting;
 
 /// <summary>
@@ -18,7 +20,8 @@ internal struct RYPXWrapper
     /// </summary>
     /// <param name="code"></param>
     /// <param name="endWithNewLine">Note: This may cause crashes!</param>
-    public void WriteLine(string code, bool endWithNewLine = false) => rawCode += endWithNewLine ? $"{code}\n" : code;
+    public void WriteLine(string code, bool endWithNewLine = false) => rawCode = ZString.Concat(rawCode,
+        endWithNewLine ? ZString.Concat(code, Environment.NewLine) : code);
 
     /// <summary>
     /// Returns the script code.

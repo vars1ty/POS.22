@@ -70,7 +70,7 @@ internal readonly struct Printer
     {
         if (!Config.printerActive) return;
         WriteInfo("--------------------------------------------------------------------");
-        WriteInfo("Welcome to Project Old SSO!");
+        WriteInfo("Welcome to RE:[SSO], a.k.a Project Old SSO!");
         WriteInfo("Discord Server: https://discord.gg/QQTfpAprS9");
         WriteInfo("Here's a quick cheat-sheet of the keybindings available for you:");
         WriteInfo("[W-A-S-D] = Moves you forwards, backwards and to the sides");
@@ -78,7 +78,11 @@ internal readonly struct Printer
         WriteInfo("[SPACE]   = Moves you upwards");
         WriteInfo("[PLUS]    = Increases your movement speed");
         WriteInfo("[MINUS]   = Decreases your movement speed");
-        WriteInfo("Have fun exploring the old Star Stable Online, the one without Clara Lightland!");
+        WriteInfo("Have fun exploring the old Star Stable Online, the one that we all miss.");
+        WriteInfo(
+            "Please keep in mind that this is a hobby project, and I am in no way affiliated with Star Stable Entertainment AB.");
+        WriteInfo(
+            "If you have suggestions, please post them in the Discord server. Do keep in mind that there are strict technical limitations though.");
         WriteInfo("--------------------------------------------------------------------");
         WriteWarning("This is a beta version, therefore bugs may occur!");
     }

@@ -278,6 +278,15 @@
           "lib/netstandard1.6/System.Linq.Expressions.dll": {}
         }
       },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
       "System.ObjectModel/4.0.12": {
         "type": "package",
         "dependencies": {
@@ -497,6 +506,18 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
+        }
+      },
+      "ZString/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/ZString.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/ZString.dll": {}
         }
       }
     }
@@ -1435,6 +1456,27 @@
         "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll",
         "system.linq.expressions.4.1.0.nupkg.sha512",
         "system.linq.expressions.nuspec"
+      ]
+    },
+    "System.Memory/4.5.3": {
+      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.ObjectModel/4.0.12": {
@@ -2501,29 +2543,46 @@
         "system.threading.tasks.4.0.11.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "ZString/2.4.4": {
+      "sha512": "3ETG/AE0wR+Uo1CPwzSIYLMvDak5i8stKR/DdxOTyj8EKD9bKPTbftv/YhMbbjfR04gA2xK0PX3mPj7BRGDlew==",
+      "type": "package",
+      "path": "zstring/2.4.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/ZString.dll",
+        "lib/netstandard2.0/ZString.xml",
+        "lib/netstandard2.1/ZString.dll",
+        "lib/netstandard2.1/ZString.xml",
+        "zstring.2.4.4.nupkg.sha512",
+        "zstring.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Colorful.Console >= 1.2.15",
       "Memory.dll.x64 >= 1.2.23",
-      "Newtonsoft.Json >= 13.0.1"
+      "Newtonsoft.Json >= 13.0.1",
+      "ZString >= 2.4.4"
     ]
   },
   "packageFolders": {
-    "/home/narcotics/.nuget/packages/": {}
+    "C:\\Users\\0\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/POS.22.csproj",
+      "projectUniqueName": "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\POS.22.csproj",
       "projectName": "POS.22",
-      "projectPath": "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/POS.22.csproj",
-      "packagesPath": "/home/narcotics/.nuget/packages/",
-      "outputPath": "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/obj/",
+      "projectPath": "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\POS.22.csproj",
+      "packagesPath": "C:\\Users\\0\\.nuget\\packages\\",
+      "outputPath": "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/narcotics/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2558,6 +2617,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "ZString": {
+            "target": "Package",
+            "version": "[2.4.4, )"
           }
         },
         "imports": [
@@ -2570,18 +2633,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.2, 6.0.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
