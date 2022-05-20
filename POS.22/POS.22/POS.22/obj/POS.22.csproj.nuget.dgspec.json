@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\POS.22.csproj": {}
+    "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/POS.22/POS.22.csproj": {}
   },
   "projects": {
-    "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\POS.22.csproj": {
+    "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/POS.22/POS.22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\POS.22.csproj",
+        "projectUniqueName": "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/POS.22/POS.22.csproj",
         "projectName": "POS.22",
-        "projectPath": "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\POS.22.csproj",
-        "packagesPath": "C:\\Users\\0\\.nuget\\packages\\",
-        "outputPath": "C:\\General\\Coding\\POS.22\\POS.22\\POS.22\\obj\\",
+        "projectPath": "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/POS.22/POS.22.csproj",
+        "packagesPath": "/home/narcotics/.nuget/packages/",
+        "outputPath": "/storage/NVME2/General/Coding/POS.22/POS.22/POS.22/POS.22/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/narcotics/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -65,12 +65,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.2, 6.0.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

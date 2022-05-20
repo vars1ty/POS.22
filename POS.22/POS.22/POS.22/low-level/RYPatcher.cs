@@ -95,6 +95,7 @@ internal static class RYPatcher
         // ? Hence why we are starting loads of objects above, so that we can access otherwise unloaded cameras.
         builder.WriteLine("~/CutSceneCamera.Start();");
         builder.WriteLine("~/CutSceneCamera.SetOrientationByObject(~/MoorlandStable);");
+        builder.WriteLine("~/ChatWindow.RunScript(\"OnVillageChatEnable\");");
         builder.WriteLine("~/CutSceneCamera.SetPosition(0, 90, 20);");
         builder.WriteLine("~/CutSceneCamera.SetRotationY(0);");
         return builder.GetCode();
@@ -108,4 +109,14 @@ internal static class RYPatcher
     private static void WriteString(string address, string content) =>
         // ! "return;" was used in SSOUtils as well in order to prevent code behind it from running, decreasing the risk of crashing.
         consult.Memory.write_string(address, ZString.Concat(content, ");\nreturn;"));
+
+    /// <summary>
+    /// Write a string to the specified address.
+    /// <para>This is the unsafe variant of <see cref="WriteString"/> because it doesn't add "return;" at the end or try to protect the input script code from crashes.</para>
+    /// </summary>
+    /// <param name="address"></param>
+    /// <param name="content"></param>
+    private static void WriteStringUnsafe(string address, string content) =>
+        // ! "return;" was used in SSOUtils as well in order to prevent code behind it from running, decreasing the risk of crashing.
+        consult.Memory.write_string(address, content);
 }
